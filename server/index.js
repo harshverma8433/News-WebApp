@@ -7,7 +7,7 @@ const PORT = process.env.PORT;
 connectDataBase()
 .then(()=>{
     app.listen(PORT ,()=>{
-        console.log("http:localhost:" + PORT);
+        console.log("http:localhost:4444");
     })
 
 })
