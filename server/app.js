@@ -11,8 +11,7 @@
 
 
     app.use(cors({
-        // origin: 'https://news-application-3rqa.vercel.app',
-        origin : 'http://localhost:5173',
+        origin : 'http://localhost:5174',
         credentials: true
     }));
 
